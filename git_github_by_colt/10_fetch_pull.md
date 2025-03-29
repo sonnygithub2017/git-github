@@ -84,6 +84,6 @@
     - 3 situations for the merge during `git pull`:
       - fast forward merge: if the master branch is behind the origin/master branch, git will just move the master branch to the origin/master branch
       - 3-way merge: if there are changes in both master and origin/master, but no conflict. git will automatically create a new commit that merges the changes from both branches
-      - conflict: if there are changes in both branches that conflict with each other, you will need to resolve the conflicts manually
+      - conflict: if there are changes in both branches that conflict with each other, you will need to resolve the conflicts manually, and then add the changes to the staging area, and commit the changes
     - short term:
       - `git pull`: if you are in the master branch, this is equivalent to `git pull origin master`
